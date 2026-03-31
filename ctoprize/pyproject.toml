@@ -1,0 +1,15 @@
+[project]
+name = "jobcan-auto"
+version = "0.1.0"
+description = "Jobcan自動入力システム - CTO Prize Hackathon 2026"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.49",
+    "google-genai>=1.0",
+    "streamlit>=1.40",
+    "Pillow>=10.0",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+setup-browsers = "playwright install chromium"
